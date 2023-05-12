@@ -7,6 +7,7 @@ public class Phone {   // Blue Print
 	private double price;
 	private String description;
 	
+	
 	public String getBrandName() {
 		return this.brandName;
 	}
@@ -20,18 +21,21 @@ public class Phone {   // Blue Print
 	public void setBrandCode(String brandCode) {
 		this.brandCode = brandCode;
 	}
+	
 	public double getPrice() {
-		return this.price;
+		return price;
 	}
 	public void setPrice(double price) {
 		this.price = price;
 	}
 	public String getDescription() {
-		return this.description;
+		return description;
 	}
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
+	
 	
 	
 	

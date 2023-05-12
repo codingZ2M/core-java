@@ -5,7 +5,7 @@ public class PhoneTest {
 	public static void main(String[] args) {
 		
 		Phone samsung = new Phone ();  // Represents real word object / instance
-				
+		
 		samsung.setBrandCode("SMG098");
 		samsung.setBrandName("SAMSUNG Galaxy 657");
 		

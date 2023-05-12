@@ -17,6 +17,7 @@ public class EmployeeDetails {
 		
 		Employee.showEmployeeDetails(finalSalary, position );
 	
+		
 	 basicSalary = 9000.00d;
 	 increment = 11.00d; 
 	 isPermanent = true;

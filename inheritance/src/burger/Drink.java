@@ -8,6 +8,7 @@ private String drink;
 	private static double PineappleMangoSplashJuicePrice;
 	private static double splashWatermelonCherryJuicePrice;
 	
+
 	static {
 		MangoPeachFlavoredJuicePrice = 6.00d;
 		PineappleMangoSplashJuicePrice = 4.00d;
@@ -34,7 +35,7 @@ private String drink;
 	// Method Overriding with 'super' keyword
 	@Override
 	public double calculatePrice () {
-		double sidePrice = super.calculatePrice();
+		double sidePrice =  super.calculatePrice();
 		double drinkPrice = 0.00d;
 		
 		 if(this.drink != null && this.drink.equals("Mango Peach Flavored Juice")) {

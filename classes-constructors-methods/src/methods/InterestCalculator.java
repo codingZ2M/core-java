@@ -1,6 +1,6 @@
 package methods;
 
-public class InstanceMethods {
+public class InterestCalculator {
 	 
 	 private double rateOfInterest;
 	  private double amountOfDeposit;
@@ -28,11 +28,11 @@ public class InstanceMethods {
 
 	private double calculateInterest(double amountOfDeposit, double rateOfInterest, int tenure) {
 		
-		if (amountOfDeposit <=0 || this.rateOfInterest <=0 ) {
+		if (this.amountOfDeposit <=0 || this.rateOfInterest <=0 ) {
 			return -1;
 		}
 	
-   	return    amountOfDeposit * (1 + (this.rateOfInterest/100)  * tenure) ;
+   	return    this.amountOfDeposit * (1 + (this.rateOfInterest/100)  * tenure) ;
    }
    
 	

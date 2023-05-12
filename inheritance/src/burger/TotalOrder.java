@@ -8,9 +8,9 @@ public class TotalOrder {
 		
 		Drink drink = new Drink(); 
 		
-		drink.setBurger("Bacon Cheese Burger");
+	drink.setBurger("Bacon Cheese Burger");
 	drink.setSide("Pickled Veggies");
-		drink.setDrink("Pineapple Mango Splash Juice");
+	drink.setDrink("Pineapple Mango Splash Juice");
 				
 		totalPrice = drink.calculatePrice();
 		

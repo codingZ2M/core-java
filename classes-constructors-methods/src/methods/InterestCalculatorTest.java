@@ -1,13 +1,13 @@
 package methods;
 
-public class InstanceMethodsTest {
+public class InterestCalculatorTest {
 	
 	public static void main (String[] args) {
 
-		InstanceMethods  interestCalculator = new InstanceMethods ();
+		InterestCalculator  interestCalculator = new InterestCalculator ();
 	
-		 interestCalculator.setRateOfInterest(6.0d);
-		 interestCalculator.setAmountOfDeposit(15000.00d);
+		 interestCalculator.setRateOfInterest(7.20d);
+		 interestCalculator.setAmountOfDeposit(150000.00d);
 		 
 		 interestCalculator.showInterestAmount();
 		 

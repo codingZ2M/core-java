@@ -15,13 +15,14 @@ public class Employee {
 
 		if (isPermanent ) {  // Code block starts here..
 
-			double updatedSalary =(  basicEmployeeSalary + ( basicEmployeeSalary * (increment/100) ) );
+			double updatedSalary = (  basicEmployeeSalary + ( basicEmployeeSalary * (increment/100) ) );
 
 			finalSalary  = updatedSalary +=incentive;
 
 		} // Code block ends here..
 		return  finalSalary;
 	}
+	
 
 	// showUpdatedSalary method with 'public' ... 'String'...'static'...
 	public static String showPosition (double salary)  {
@@ -35,9 +36,8 @@ public class Employee {
 		} else {
 			return "Trainee Employee";
 		}
-
-
 	}
+	
 	// method 
 	public static void showEmployeeDetails (double salary, String employeePosition) {
 
