@@ -14,7 +14,6 @@ public class Z2Petrol extends ScorpioN {
 
 	@Override
 	public double calculatePrice () {
-			double z2PetrolVehcilePrice = super.calculatePrice();
-			return z2PetrolVehcilePrice;
+		return this.price + this.insurance + this.roadTax;
 	}
 }

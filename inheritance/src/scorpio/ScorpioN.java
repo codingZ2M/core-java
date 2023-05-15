@@ -1,6 +1,6 @@
 package scorpio;
 
-public class ScorpioN {
+public abstract class ScorpioN {
 
 	private int airBags;
 	private int seatingCapacity;
@@ -80,8 +80,6 @@ public class ScorpioN {
 		return pentalinkSuspension;
 	}
 
-	public double calculatePrice () {
-		return this.price + this.insurance + this.roadTax;
-	}
+	public abstract double calculatePrice ();
 	
 }
